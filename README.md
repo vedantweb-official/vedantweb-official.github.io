@@ -1,117 +1,95 @@
-# Vedant Web — Portfolio Website
+# 🚀 Vedant Web — Premium Websites in Budget & Digital Growth
 
-> **Modern Full-Stack Web Development** — Building fast, scalable, and responsive web applications for startups, businesses, and creators.
+<div align="center">
 
-Live at: [vedantweb.dev](https://vedantweb.dev)
+![Vedant Web Logo](assets/images/logo.png)
 
----
+### High-Impact, Modern Websites Starting at Just **₹999/-** & Social Media Growth Services
+*Fast Delivery · Mobile Responsive · SEO Ready · 100% Client Satisfaction*
 
-## 🗂 Project Structure
+[🌐 Live Website](https://vedantweb-official.github.io/) • [💼 View Portfolio](https://vedantweb-official.github.io/projects.html) • [📩 Contact & Quote](https://vedantweb-official.github.io/contact.html)
 
-```
-/
-├── index.html          ← Main landing page (all sections)
-├── projects.html       ← Full project portfolio with filter
-├── contact.html        ← Standalone contact page
-│
-├── assets/
-│   ├── css/
-│   │   ├── style.css   ← Design system + all styles
-│   │   └── pages.css   ← Sub-page specific styles
-│   ├── js/
-│   │   └── main.js     ← All JavaScript (no dependencies)
-│   └── images/
-│       ├── logo.png            ← Brand Logo
-│       ├── project-1.jpg       ← Kshitiz Project Preview
-│       ├── project-2.png       ← Suchna Kendra Project Preview
-│       ├── project-3.png       ← KVK Jalaun Project Preview
-│       ├── project-4.jpg       ← Ved Water Project Preview
-│       ├── hero-laptop.jpg     ← Hero section visual
-│       ├── avatar-1.jpg        ← Testimonial client 1
-│       ├── avatar-2.jpg        ← Testimonial client 2
-│       └── avatar-3.jpg        ← Testimonial client 3
-│
-├── robots.txt
-├── sitemap.xml
-└── README.md
-```
+</div>
 
 ---
 
-## 🌟 Featured Active Projects
+## 💡 About Vedant Web
 
-1. **Kshitiz** (Hindi Novels Reading Platform) — [Live Demo](https://kshitiz.store/) | [GitHub](https://github.com/brajeshsharma-cpu/Kshitiz)
-2. **Suchna Kendra** (Government Schemes & Vacancies Hub) — [Live Demo](https://suchnakendra.in/) | [GitHub](https://github.com/brajeshsharma-cpu/SuchnaKendra)
-3. **KVK Jalaun** (Official Government Office Website) — [Live Demo](https://kvkjalaun.vercel.app/) | [GitHub](https://github.com/brajeshsharma-cpu/Kvkjalaun)
-4. **Ved Water Studio** (Business Portal) — [Live Demo](https://ved-water-lovat.vercel.app/) | [GitHub](https://github.com/brajeshsharma-cpu/ved-water)
-5. **Vedaa** (AI-Powered Kundli Reader) — [Live Demo](https://astro-rosy.vercel.app/) | [GitHub](https://github.com/brajeshsharma-cpu/Astro)
+**Vedant Web** is your dedicated technology and growth partner. We build lightning-fast, visually stunning, and conversion-focused websites tailored specifically for small businesses, startups, creators, and entrepreneurs without the exorbitant agency price tag.
+
+Whether you need a quick online presence to establish credibility, a full-featured custom web platform, or a rapid boost in your social media reach, we deliver results on time and within budget.
 
 ---
 
-## 🚀 Hosting on GitHub Pages
+## ✨ Our Core Services
 
-1. Push this repository to GitHub
-2. Go to **Settings → Pages**
-3. Set Source to `main` branch, `/ (root)`
-4. Your site will be live at `https://<username>.github.io/<repo>/`
+### 1. 🌐 Website Design & Web Development
+* **Starter Single Page Website (₹999/-):** Perfect for small businesses, personal portfolios, and fast launches. Includes modern responsive layout, contact form, and fast hosting setup.
+* **Standard Business Website (₹2,499/-):** Multi-page design (Home, About, Services, Gallery/Portfolio, Contact), custom branding, SEO optimization, and WhatsApp/Email inquiry integration.
+* **Custom Web Applications & SaaS (From ₹7,999/-):** Scalable React/Next.js dynamic web applications with interactive dashboards, database integrations, authentication, and REST APIs.
 
-Or use a custom domain — add a `CNAME` file with `vedantweb.dev`.
-
----
-
-## ✅ To-Do Before Going Live
-
-### Required (Contact Form Setup)
-- [x] **Web3Forms Access Key Configured** (`46d993c1-82ed-442e-b7b7-3b868c7a4702`)
-  - Form queries from `index.html` and `contact.html` will now be delivered to your registered email automatically!
-- [ ] **Replace your email** — search for `hello@vedantweb.dev` and update if desired
-- [ ] **Update your domain** — replace `https://vedantweb.dev` in all meta tags and sitemap
+### 2. 📈 Social Media & Instagram Growth Services
+Supercharge your social credibility and brand authority with authentic, low-cost engagement packages:
+* **Targeted Instagram Followers** to boost brand authority
+* **High-Retention Likes & Views** on posts and reels
+* **Fast Delivery & Non-Drop Guarantee**
 
 ---
 
-## 🛠 Tech Stack
+## 💰 Transparent Pricing Plans
 
-| Layer | Tech |
-|-------|------|
-| Structure | Semantic HTML5 |
-| Styling | Vanilla CSS (custom properties, Grid, Flexbox) |
-| JavaScript | Vanilla JS (ES6+, no dependencies) |
-| Fonts | Inter (Google Fonts) |
-| Forms | Web3Forms (No backend required) |
-| Hosting | GitHub Pages |
+| Plan | Price | Best For | Key Features |
+| :--- | :--- | :--- | :--- |
+| **Starter Web** | **₹999/-** | Portfolios & Single Products | Single Page, 100% Responsive, Contact Form, 24-48h Delivery |
+| **Business Pro** | **₹2,499/-** | Growing Businesses & Clinics | Up to 5 Pages, SEO Optimized, Social & WhatsApp Connect, Fast Turnaround |
+| **Custom Web App** | **₹7,999+** | Startups & SaaS Platforms | Next.js / React Stack, Database Backend, Auth, Custom Features |
+| **Instagram Boost** | **Custom / Low Cost** | Creators & Brands | Followers, Post Likes, Reel Views, Instant Delivery |
 
 ---
 
-## ⚡ Performance Features
+## 💼 Live Client Showcase
 
-- Zero JavaScript dependencies
-- Images lazy-loaded (`loading="lazy"`)
-- Inline SVG favicon (no extra request)
-- `preconnect` for Google Fonts
-- IntersectionObserver for scroll animations (no scroll listeners)
-- CSS animations use `transform` and `opacity` only (GPU-accelerated)
+Here are some of the live websites and digital products designed and shipped by Vedant Web:
 
----
-
-## 📦 Sections on `index.html`
-
-1. Navbar (fixed, blur backdrop)
-2. Hero (headline + laptop mockup + floating badges)
-3. Stats Bar (animated counters)
-4. About (bio + tech stack + highlight cards)
-5. Services (12 service cards)
-6. Tech Stack (12 technology badges)
-7. Why Choose Me (8 feature cards)
-8. Development Process (7-step horizontal timeline)
-9. Portfolio (6 project cards)
-10. Testimonials (3 client cards)
-11. FAQ (accordion, 7 questions)
-12. Contact (Formspree form + contact details)
-13. Footer
+* 📚 **[Kshitiz](https://kshitiz.store/)** — Modern Hindi novels reading platform with bookmarking and immersive reader mode.
+* 🏛️ **[Suchna Kendra](https://suchnakendra.in/)** — Centralized government schemes and job vacancy information portal.
+* 🌾 **[KVK Jalaun](https://kvkjalaun.vercel.app/)** — Official institutional web presence for Krishi Vigyan Kendra, UP.
+* 💧 **[Ved Water Studio](https://ved-water-lovat.vercel.app/)** — Industrial water treatment solutions and client inquiry platform.
+* 🔮 **[Vedaa](https://astro-rosy.vercel.app/)** — AI-powered Vedic astrology Kundli reader with natural language reports.
+* 🎵 **[Madan Mohan Band](https://m-mband.vercel.app/)** — Official music band portfolio with media showcases and event booking.
 
 ---
 
-## 📞 Contact
+## 🛠️ Technology Stack We Use
 
-**Email:** hello@vedantweb.dev  
-**Location:** India · Available Worldwide
+* **Frontend:** HTML5, CSS3 (Custom Responsive Systems), JavaScript (ES6+), React, Next.js, Tailwind CSS
+* **Backend & APIs:** REST APIs, Node.js, Next.js API Routes, Supabase
+* **Deployment & Hosting:** Vercel, GitHub Pages, Netlify, Cloudflare
+* **Lead Capture & Forms:** Web3Forms integration (instant inbox alerts)
+
+---
+
+## 🤝 How We Work (Simple 4-Step Process)
+
+1. **Discovery & Requirement:** Share your project vision, target audience, and preferred plan.
+2. **Design & Prototyping:** We create a modern, high-conversion visual layout.
+3. **Development & Testing:** Fast development with rigorous mobile and cross-browser testing.
+4. **Launch & Handover:** Smooth deployment to your domain with continuous support.
+
+---
+
+## 📬 Get In Touch & Start Your Project
+
+Ready to launch your website or grow your brand?
+
+* 🌐 **Website:** [vedantweb-official.github.io](https://vedantweb-official.github.io/)
+* 📞 **Phone / WhatsApp:** [+91 9140448004](tel:+919140448004) ([Chat on WhatsApp](https://wa.me/919140448004))
+* 📧 **Email:** [vedantwebofficial@gmail.com](mailto:vedantwebofficial@gmail.com)
+* 📝 **Send an Inquiry:** [Contact Page](https://vedantweb-official.github.io/contact.html)
+* ⚡ **Response Time:** Guaranteed response within 24 hours
+
+---
+
+<div align="center">
+  <p>© 2026 Vedant Web. All rights reserved.</p>
+</div>
