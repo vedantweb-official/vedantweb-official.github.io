@@ -1193,6 +1193,14 @@ button {
   display: block;
 }
 
+/* ============================================================
+   TECH STACK
+   ============================================================ */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--space-4);
+}
 
 .tech-card {
   display: flex;
@@ -2067,6 +2075,7 @@ button {
   .about-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .pricing-grid { grid-template-columns: repeat(2, 1fr); }
+  .tech-grid { grid-template-columns: repeat(4, 1fr); }
   .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: 1fr; max-width: 540px; margin-inline: auto; }
   .contact-grid { grid-template-columns: 1fr; gap: var(--space-10); }
@@ -2095,6 +2104,7 @@ button {
   .services-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: 1fr; }
   .pricing-card.popular { transform: scale(1); }
+  .tech-grid { grid-template-columns: repeat(3, 1fr); }
   .why-grid { grid-template-columns: 1fr; }
   .portfolio-grid { grid-template-columns: 1fr; }
   .stats-bar .container { grid-template-columns: repeat(2, 1fr); }
