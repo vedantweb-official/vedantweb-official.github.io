@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://vedantweb.in"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio.kshitiz.store"),
   title: "Vedant Web — High-Performance Websites & Web Apps | Plans from ₹501/-",
   description: "High-performance, modern, and mobile-ready web applications, SaaS platforms, mock test engines, and business websites starting from just ₹501/- only.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vedant Web — High-Performance Websites & Web Apps | Plans from ₹501/-",
     description: "Affordable, lightning-fast web apps & business portals with transparent pricing starting @ ₹501/- only.",
-    url: process.env.NEXT_PUBLIC_SITE_URL || "https://vedantweb.in",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio.kshitiz.store",
     siteName: "Vedant Web",
     images: [
       {

@@ -3,7 +3,7 @@ import { CITIES_DATA } from "@/data/cities";
 import { INDUSTRIES_DATA } from "@/data/industries";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://vedantweb.in";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio.kshitiz.store";
 
   // Static Core Routes
   const staticRoutes: MetadataRoute.Sitemap = [

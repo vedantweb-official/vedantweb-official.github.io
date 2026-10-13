@@ -64,7 +64,7 @@ During the active development phase of our automated self-service Client Portal,
 - 💬 **WhatsApp Direct Chat:** [`Chat on WhatsApp (+91 9140448004)`](https://wa.me/919140448004?text=Hi%20Vedant%20Web%2C%20I%20would%20like%20to%20discuss%20my%20web%2Fapp%20project.)
 - 📅 **Google Meet Discovery Call:** [`Book a Slot on Google Calendar`](/book-meeting)
 - 📍 **Google Business Profile:** [`Verified Google Listing & Reviews`](https://local.google.com/place?placeid=ChIJHVnB5ekTAUURsnBZJ1oXi3g)
-- 🌐 **Official Website:** [https://vedantweb.in](https://vedantweb.in)
+- 🌐 **Live Website:** [https://portfolio.kshitiz.store](https://portfolio.kshitiz.store) *(Primary domain until `vedantweb.in` purchase)*
 
 ---
 
@@ -99,7 +99,7 @@ npm install
 ### 3. Environment Configuration
 Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_SITE_URL=https://vedantweb.in
+NEXT_PUBLIC_SITE_URL=https://portfolio.kshitiz.store
 
 # Optional: Supabase credentials
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
@@ -138,15 +138,12 @@ git push -u origin main
 
 ### Step 3: Configure Environment Variables
 Under **Environment Variables**, add:
-- `NEXT_PUBLIC_SITE_URL` = `https://vedantweb.in` *(or your production domain)*
+- `NEXT_PUBLIC_SITE_URL` = `https://portfolio.kshitiz.store` *(or `https://vedantweb.in` once purchased)*
 
 ### Step 4: Deploy & Connect Custom Domain
 1. Click **Deploy**. Vercel will build the project in under 2 minutes.
-2. Once deployed, navigate to **Project Settings** &rarr; **Domains**.
-3. Add your domain (e.g. `vedantweb.in` and `www.vedantweb.in`).
-4. Configure DNS records on your registrar (e.g. GoDaddy, Hostinger, Cloudflare):
-   - **A Record:** `@` points to `76.76.21.21`
-   - **CNAME Record:** `www` points to `cname.vercel-dns.com`
+2. In **Project Settings** &rarr; **Domains**, ensure `portfolio.kshitiz.store` is connected.
+3. *(Future Step)* When you purchase `vedantweb.in`, simply add `vedantweb.in` here in Vercel Domains and change `NEXT_PUBLIC_SITE_URL` to `https://vedantweb.in`.
 
 ---
 
@@ -154,16 +151,18 @@ Under **Environment Variables**, add:
 
 Our codebase dynamically generates an SEO sitemap covering the landing page, core tools, 136+ city hubs, and 16+ industry verticals at:
 ```
-https://vedantweb.in/sitemap.xml
+https://portfolio.kshitiz.store/sitemap.xml
 ```
 
 ### Step-by-Step Submission:
 1. **Open Google Search Console:** Go to [Google Search Console](https://search.google.com/search-console).
 2. **Add Property:**
-   - Choose **URL Prefix** (`https://vedantweb.in`) or **Domain** (`vedantweb.in`).
+   - Choose **URL Prefix** and enter:
+     ```
+     https://portfolio.kshitiz.store
+     ```
 3. **Verify Ownership:**
-   - If using Domain, add the provided TXT record to your DNS manager.
-   - If using URL Prefix, you can verify via HTML tag, Google Analytics, or Vercel DNS.
+   - Easiest method: Use **HTML tag** (or DNS TXT record on your `kshitiz.store` registrar).
 4. **Submit Sitemap:**
    - In the left sidebar, click **Sitemaps** (under *Indexing*).
    - In the "Add a new sitemap" input box, type:
@@ -172,8 +171,17 @@ https://vedantweb.in/sitemap.xml
      ```
    - Click **Submit**.
 5. **Verify Status:**
-   - Google Search Console will crawl the sitemap and display **"Success"** with the total count of discovered URLs (~155+ pages).
-   - All hyper-local city and industry landing pages will be indexed for organic search queries across India.
+   - Google Search Console will crawl the sitemap and display **"Success"** with the total count of discovered URLs (~156+ pages).
+
+---
+
+### 🔄 Future Migration to `vedantweb.in` (When You Purchase It)
+When you later purchase `vedantweb.in`, migrating is seamless and zero-downtime:
+1. **Add Domain in Vercel:** Go to Vercel &rarr; Settings &rarr; Domains &rarr; Add `vedantweb.in`.
+2. **Update Environment Variable:** Change `NEXT_PUBLIC_SITE_URL` to `https://vedantweb.in`.
+3. **Google Search Console Migration:**
+   - Add `https://vedantweb.in` as a new property in Google Search Console and submit `sitemap.xml`.
+   - In the old `portfolio.kshitiz.store` property, go to **Settings &rarr; Change of Address** and point it to `https://vedantweb.in` so Google smoothly transfers all indexing and rankings!
 
 ---
 
